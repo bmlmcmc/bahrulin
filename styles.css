@@ -48,3 +48,11 @@ footer {
     background: #333;
     color: white;
 }
+
+/* main {
+    text-align: left; /* Mengembalikan teks ke rata kiri
+} */
+
+p, ul {
+    text-align: justify; /* Membuat paragraf dan daftar menjadi justified */
+}
