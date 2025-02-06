@@ -56,3 +56,22 @@ footer {
 p, ul li{
     text-align: justify; /* Membuat paragraf dan daftar menjadi justified */
 }
+
+
+/* Center and style social media icons */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
