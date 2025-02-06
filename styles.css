@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
     background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 15px;
 }
 
@@ -53,6 +53,6 @@ footer {
     text-align: left; /* Mengembalikan teks ke rata kiri
 } */
 
-p, ul {
+p, ul li{
     text-align: justify; /* Membuat paragraf dan daftar menjadi justified */
 }
