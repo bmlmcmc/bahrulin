@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Pribadi</title>
+    <title>Portfolio | Nama Anda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Selamat Datang di Halaman Saya!</h1>
-    <p>Ini adalah halaman pribadi yang di-host menggunakan GitHub Pages.</p>
+
+    <header>
+        <h1>Portfolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="loadPage('home')">Home</a></li>
+                <li><a href="#" onclick="loadPage('about')">About</a></li>
+                <li><a href="#" onclick="loadPage('publications')">Publications</a></li>
+                <li><a href="#" onclick="loadPage('experience')">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <!-- Konten akan dimuat di sini -->
+    </main>
+
+    <footer>
+        <p>© 2025 Nama Anda. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
